@@ -15,7 +15,7 @@ chmod a+x vpn_setup_on_aliyun.sh
 
 ### Peer setup
 
-1. Create new peer, for example `hk1`
+* Create new peer, for example `hk1`
 
 ```shell
 sudo touch /etc/ppp/peers/hk1 # hk1 is the peer name
@@ -36,7 +36,7 @@ refuse-eap
 noauth
 ```
 
-2. Setup authentication
+* Setup authentication
 
 ```
 sudo vim /etc/ppp/chap-secrets
