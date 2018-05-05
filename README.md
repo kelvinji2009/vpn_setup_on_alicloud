@@ -1,12 +1,12 @@
-# vpn_setup_on_aliyun
-How to setup VPN on your aliyun server
+# vpn_setup_on_alicloud
+How to setup VPN on your alicloud server
 
 ## Install
 
 ```shell
-git clone git@github.com:kelvinji2009/vpn_setup_on_aliyun.git
-cd vpn_setup_on_aliyun
-chmod a+x vpn_setup_on_aliyun.sh
+git clone git@github.com:kelvinji2009/vpn_setup_on_alicloud.git
+cd vpn_setup_on_alicloud
+chmod a+x vpn_setup_on_alicloud.sh
 ```
 
 
@@ -55,8 +55,8 @@ Paste the configurations as below and feel free to change it as your requirement
 ### Run
 
 ```
-cd vpn_setup_on_aliyun
-./vpn_setup_on_aliyun.sh hk1 start
+cd vpn_setup_on_alicloud
+./vpn_setup_on_alicloud.sh hk1 start
 ```
 
 Enjoy it now. :D
@@ -64,6 +64,6 @@ Enjoy it now. :D
 ## Usage 
 
 ```
-./vpn_setup_on_aliyun.sh VPN_CONFIG_NAME ACTION[start|stop]
+./vpn_setup_on_alicloud.sh VPN_CONFIG_NAME ACTION[start|stop]
 ```
 
